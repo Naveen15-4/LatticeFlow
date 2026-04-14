@@ -134,9 +134,9 @@ Special thanks to [atomic-coder](https://github.com/atomic-coder) for the collab
 If you utilize this framework or code structure in your own research, please cite:
 
 ```bibtex
-@software{latticeflow2026,
+@software{lTopoCrush026,
   author    = {Naveen Kumar},
-  title     = {LatticeFlow: Graph Neural Network Surrogate and RL Optimization for Crashworthiness Design},
+  title     = {TopoCrush: Graph Neural Network Surrogate and RL Optimization for Crashworthiness Design},
   year      = {2026},
   url       = {[https://github.com/Naveen15-4/LatticeFlow](https://github.com/Naveen15-4/LatticeFlow)}
 }
