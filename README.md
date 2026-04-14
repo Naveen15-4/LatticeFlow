@@ -74,8 +74,8 @@ This closely tracks the ground truth reaction forces extracted from traditional 
 During training, the PPG agent learns to strategically distribute the Voronoi seeds to eliminate dangerous force spikes. By spreading out the load paths, the structure absorbs energy much more smoothly.
 
 <p align="center">
-  <img src="assets/PPG_optimization_5_seeds.gif" alt="Optimization" width="400"/>
-  <img src="assets/cfe_optimized_force_curve.png" alt="Force Curve" width="400"/>
+  <img src="assets/PPG_optimization_5_seeds.gif" alt="Optimization" width="550"/>
+  <img src="assets/cfe_optimized_force_curve.png" alt="Force Curve" width="550"/>
 </p>
 
 ---
@@ -118,14 +118,15 @@ python PPG_main.py --config config/PPG_config.yaml --mode train
 ```
 
 ## Collaboration & Credits
-This framework is part of ongoing collaborative research into AI-driven mechanical design. Special thanks to [atomic-coder](https://github.com/atomic-coder) for the collaboration on the core MGN architecture.
+This framework is part of ongoing collaborative research into AI-driven mechanical design. 
+Special thanks to [atomic-coder](https://github.com/atomic-coder) for the collaboration on the core MGN architecture.
 
 ## Citation
 If you utilize this framework or code structure in your own research, please cite:
 
 ```bibtex
 @software{latticeflow2026,
-  author    = {Naveen Kumar Kumaravel},
+  author    = {Naveen Kumar},
   title     = {LatticeFlow: Graph Neural Network Surrogate and RL Optimization for Crashworthiness Design},
   year      = {2026},
   url       = {[https://github.com/Naveen15-4/LatticeFlow](https://github.com/Naveen15-4/LatticeFlow)}
