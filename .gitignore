@@ -205,3 +205,11 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+# Research Data and Weights
+checkpoints/
+raw_data/
+processed/
+*.pt
+*.nas
+*.gif
