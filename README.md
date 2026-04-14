@@ -97,32 +97,40 @@ $$F(y) = -\frac{dU}{dy}, \qquad \text{CFE} = \frac{\text{mean}(|F|)}{\text{peak}
 * `/tools`: Visualization tools, data preprocessors, and the Voronoi mesh generator.
 * `/config`: Centralized YAML files to manage hyperparameters.
 
+
 ## Getting Started
-Prerequisites: A CUDA-enabled GPU (8GB+ VRAM) and system memory of 16GB+ is recommended. 
-PyTorch Geometric must be compiled to match your local CUDA version.
+
+Prerequisites: A CUDA-enabled GPU (8GB+ VRAM) and system memory of 16GB+ is recommended. PyTorch Geometric must be compiled to match your local CUDA version.
 
 1. **Install dependencies**:
 ```bash
 pip install -r requirements.txt
+```
+
 2. **Train the Surrogate Model**:
 ```bash
 python MGN_main.py --config config/MGN_config.yaml --mode train
+```
 
-3.**Run Design Optimization**:
-
+3. **Run Design Optimization**:
 ```bash
 python PPG_main.py --config config/PPG_config.yaml --mode train
+```
 
-##Collaboration & Credits
-This framework is part of ongoing collaborative research into AI-driven mechanical design. Special thanks to atomic-coder {https://github.com/atomic-coder} for the collaboration on the core MGN architecture.
+## Collaboration & Credits
+This framework is part of ongoing collaborative research into AI-driven mechanical design. Special thanks to [atomic-coder](https://github.com/atomic-coder) for the collaboration on the core MGN architecture.
 
-##Citation
+## Citation
 If you utilize this framework or code structure in your own research, please cite:
 
-Code snippet
+```bibtex
 @software{latticeflow2026,
   author    = {Naveen Kumar Kumaravel},
   title     = {LatticeFlow: Graph Neural Network Surrogate and RL Optimization for Crashworthiness Design},
   year      = {2026},
   url       = {[https://github.com/Naveen15-4/LatticeFlow](https://github.com/Naveen15-4/LatticeFlow)}
 }
+```
+
+## License
+MIT License.
