@@ -11,7 +11,8 @@ This project validated this framework by optimizing the seed point locations of 
 
       NOTE: Voronoi structure is a geometric pattern created by scattering points (called "seeds") across a space and drawing borders exactly halfway between them.
       The defining rule is simple: every location inside a specific cell is closer to its own seed than to any other seed.
-      In nature, you see this pattern in soap bubbles, leaf veins, and giraffe spots. In engineering, these irregular, foam-like lattices are heavily used to design                materials that are lightweight but exceptionally good at absorbing energy and distributing stress. 
+      In nature, you see this pattern in soap bubbles, leaf veins, and giraffe spots. 
+      In engineering, these irregular, foam-like lattices are heavily used to design materials that are lightweight but exceptionally good at absorbing energy and distributing stress. 
 
 ---
 
@@ -128,7 +129,7 @@ python PPG_main.py --config config/PPG_config.yaml --mode train
 
 ## Collaboration & Credits
 This framework is part of ongoing collaborative research into AI-driven mechanical design. 
-Special thanks to [atomic-coder](https://github.com/atomic-coder) for the collaboration on the core MGN architecture.
+Special thanks to [atomic-coder](https://github.com/atomic-coder) for the collaboration on the core MGN architecture and RL Optimizer.
 
 ## Citation
 If you utilize this framework or code structure in your own research, please cite:
